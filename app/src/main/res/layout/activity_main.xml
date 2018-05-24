@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <!--<Button android:id="@+id/testBtn"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:text="Get a new seed (different card)" />-->
+
+
+    <ScrollView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewScroll"
+        android:layout_weight="1">
+        <TextView android:id="@+id/textView"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Host-based card emulation for NewRx (Java Card)"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
